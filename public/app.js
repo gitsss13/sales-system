@@ -27,7 +27,7 @@ const app = async () => {
     const response = await fetch('/api/sales');
     const sales = await response.json();
 
-    salesTableBody.innerHTML = ''; 
+    salesTableBody.innerHTML = '';
 
     sales.forEach((sale) => {
       const row = document.createElement('tr');
