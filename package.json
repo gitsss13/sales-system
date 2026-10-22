@@ -1,0 +1,13 @@
+{
+  "name": "sales-system-v1",
+  "version": "1.0.0",
+  "description": "Sales system v1 - add and view sales",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node -e \"const { app } = require('./server'); console.log('server module loaded');\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
